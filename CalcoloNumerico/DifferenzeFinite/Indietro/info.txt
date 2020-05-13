@@ -1,5 +1,5 @@
-Titolo Video: 
-URL video (YouTube): 
-URL con il codice sviluppato (GitHub): 
-Playlist: 
-Codice Video: 
+Titolo Video: Differenze Finite Teoria e Codice Matlab/Octave - 05 - All'Indietro (codice)
+URL video (YouTube): https://www.youtube.com/watch?v=-2VmrvgufHk
+URL con il codice sviluppato (GitHub): https://github.com/TutorIsland/topics/tree/master/CalcoloNumerico/DifferenzeFinite/Indietro
+Playlist: coding, calcolo numerico, matlab/octave, programmazione, differenze finite, numerical
+Codice Video: TI_N_007
