@@ -1,6 +1,12 @@
 % calcola il valore della derivata numerica
 % tramite il metodo alle Differenze Finite Centrali
 % nei punti raccolti nel vettore x
+
+% * Sviluppato da Tutor Island *
+% --> Prenota le tue lezioni private per materie scientifiche: contact.tutorisland@gmail.com
+% URL del video con la spiegazione riga per riga: https://www.youtube.com/watch?v=DdE2vT-Fu3o
+% Iscritivi al Canale YouTube: https://www.youtube.com/channel/UCKkzN06obaHk8mt3iBTp6qw
+
 function [dy_num] = diff_fin_cen(x, h)
     dy_num_temp = zeros(1, length(x));
     for k = 2 : length(x) - 1
