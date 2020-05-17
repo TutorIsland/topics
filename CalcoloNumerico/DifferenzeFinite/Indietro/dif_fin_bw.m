@@ -4,6 +4,12 @@
 % x vettoriale
 %
 % (per il momento funziona solo con la funzione matematica parabola y = x^2) hard-coded
+
+% * Sviluppato da Tutor Island *
+% --> Prenota le tue lezioni private per materie scientifiche: contact.tutorisland@gmail.com
+% URL del video con la spiegazione riga per riga: https://www.youtube.com/watch?v=-2VmrvgufHk
+% Iscritivi al Canale YouTube: https://www.youtube.com/channel/UCKkzN06obaHk8mt3iBTp6qw
+
 function [dy_num] = dif_fin_bw(x, h)
     n = length(x);
     dy_temp = zeros(1, n); % inizializzare i vettori da usare ottimizza il nostro codice
