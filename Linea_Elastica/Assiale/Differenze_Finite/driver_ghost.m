@@ -15,6 +15,19 @@
 %
 % Iscriviti a "Tutor Island" su YouTube:
 % https://www.youtube.com/channel/UCKkzN06obaHk8mt3iBTp6qw?sub_confirmation=1
+%
+% Questo codice si trova liberamente disponibile online su:
+% https://github.com/TutorIsland/topics/blob/master/Linea_Elastica/Assiale/Differenze_Finite/driver_ghost.m
+%
+% Stai usando questo codice a livello Accademico/Professionale?
+% Considera una donazione
+%  - singola, via PayPal a: contact.tutorisland@gmail.com
+%  - ricorrente: https://www.patreon.com/tutorisland
+%
+% Fammi sapere cosa ne pensi del codice, delle spiegazioni e del progetto "Tutor Island" a:
+% contact.tutorisland [at] gmail [dot] com
+%
+% grazie.
 
 clear all;
 close all;
