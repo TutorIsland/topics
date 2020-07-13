@@ -1,4 +1,20 @@
-% sviluppato da: contact.tutorisland [at] gmail [dot] com
+% Questo codice risolve il problema di una trave di Eulero-Bernoulli
+% modellata con l'equazione della Linea Elastica, studiata nella
+% sua componente assiale, risolta numericamente alle Differenze Finite
+% in Avanti. Le proprieta' meccaniche, geometriche e di carico assiale distribuito
+% possono facilmente essere fatte variare lungo l'asse della trave
+% modificando i valori dei vettori 'E', 'A', 'p'. Le condizioni di vincolo
+% possono anch'esse essere variate operando opportunamente sulla matrice
+% K_ghost e sul vettore dei termini noti 'b_ghost'.
+%
+% Sviluppato da:
+% contact.tutorisland [at] gmail [dot] com
+%
+% Spiegazioni di dettaglio:
+% https://www.youtube.com/playlist?list=PLtHxIAAvyZZ7gcP2gChzLwAwvaLVe_Vgk
+%
+% Iscriviti a "Tutor Island" su YouTube:
+% https://www.youtube.com/channel/UCKkzN06obaHk8mt3iBTp6qw?sub_confirmation=1
 
 clear all;
 close all;
