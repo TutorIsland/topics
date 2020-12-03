@@ -10,7 +10,7 @@ function [f_num] = ode_diff_fin_f(df, h)
     As = diag(ds, 1);
     A  = (1.0/h)*(Ap + As); % imposto le righe con le diagonali
     A(end,:) = 0;
-    A(end,1) = h; % imposto la riga della condizione iniziale
+    A(end,1) = 1; % imposto la riga della condizione iniziale
 
     %% imposto il vettore dei termini noti b %%
     b = zeros(n, 1);
